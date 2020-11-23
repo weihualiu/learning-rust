@@ -4,6 +4,8 @@ mod trait_adv;
 pub mod add;
 mod leetcode1480;
 mod olaplan;
+mod leetcode1365;
+mod leetcode1313;
 
 use std::fmt::Display;
 

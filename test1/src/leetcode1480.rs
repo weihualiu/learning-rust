@@ -23,7 +23,7 @@ impl Solution {
             }
         }
         for val in candies.iter() {
-            if(val + extra_candies >= max) {
+            if val + extra_candies >= max {
                 vec.push(true);
             }else {
                 vec.push(false);
@@ -63,7 +63,7 @@ impl Solution {
     }
 
     pub fn can_form_array(arr: Vec<i32>, pieces: Vec<Vec<i32>>) -> bool {
-
+        true
     }
 
     pub fn num_jewels_in_stones(j: String, s: String) -> i32 {
